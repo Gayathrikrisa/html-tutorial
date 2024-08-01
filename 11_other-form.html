@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form Controls and Attributes</title>
+</head>
+<body>
+    <div style="margin:30px 30px; padding:5px 10px;">
+    Button Type:
+    <input type="button" value="Click me" onclick="alert('you are learning HTML')"><br>
+    <label>Select file to upload:</label>  
+        <input type="file" name="newfile">  
+         <input type="submit" value="submit"> 
+        <br><hr style="height:5px; background-color: red;">
+    Pick your Favorite color: <br><br>
+	    <input type="color" name="upclick" value="#a52a2a"> Up-click<br><br>
+	    <input type="color" name="downclick" value="#f5f5dc"> Down-click
+        <p><strong>Note:</strong>The default value of "color" type
+        e is #000000 (black). It only supports color value in hexadecimal format.</p> 
+        <hr style="height:5px; background-color: green;">
+  Select Start and End Date: <br><br>  
+        <input type="date" name="Startdate"> Start date:<br><br>  
+        <input type="date" name="Enddate"> End date:<br><br>  
+        <input type="submit"> <br>
+        <hr style="height:5px; background-color: blue;">
+ <label>  
+         Select the meeting schedule: <br><br>  
+         Select date & time: <input type="datetime-local" name="meetingdate"> <br><br>  
+</label>  
+        <hr style="height:5px; background-color: purple;">
+<label>Enter your Birth Month-year: </label>  
+        <input type="month" name="newMonth"> <br> 
+<label>Enter your age: </label>
+	    <input type="number" name="num" min="50" max="80">
+        <input type="submit">
+        <p><strong>Note:</strong>It will allow to enter number in range of 50-80. If you want to enter number 
+            other than range, it will show an error.</p>
+        <hr style="height:5px; background-color: orange;">
+<label>Enter your website URL: </label>  
+        <input type="url" name="website" placeholder="http://example.com"><br>  
+        <hr style="height:5px; background-color: cyan;">
+<label><b>Select your best week of year:</b></label><br><br>  
+        <input type="week" name="bestweek">   <br>
+        <hr style="height:5px; background-color: goldenrod;">
+<label><b>Enter your Telephone Number(in format of xxx-xxx-xxxx):</b></label> <br> 
+        <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>  
+</div>
+</body>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing</title>
+</head>
+<body>
+    <h2>Example of picture tag</h2>
+<p>Resize the page to see the different versions of the images at different viewports, and as per viewport image will be automatically changed.</p>
+<picture>
+    <source srcset="hills.jpeg" media="(min-width: 800px)">
+    <source srcset="butterfly.jpg" media="(min-width:600px)">
+    <img src="images.jpeg" alt="default image" style="width: auto;"> 
+</picture>
+<h2>Example of HTML Map tag</h2>
+<img src="software.jpeg" usemap="#web" width="500px" height="500px">
+<map name="web">
+<area shape="rect" coords="66,117,131,168" href="https://www.javatpoint.com/html-tutorial">
+<area shape="rect" coords="199,36,277,85" href="https://www.javatpoint.com/css-tutorial">
+<area shape="rect" coords="330,107,406,159" href="https://www.javatpoint.com/bootstrap-tutorial">
+<area shape="rect" coords="199,185,267,236" href="https://www.javatpoint.com/javascript-tutorial">
+ </map>
+</body>
+</html>

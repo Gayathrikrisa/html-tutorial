@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <form>  
+        <label for="name">Enter name</label><br>  
+        <input type="text" id="name" name="name"><br>  
+        <label for="pass">Enter Password</label><br>  
+        <input type="Password" id="pass" name="pass"><br>  
+        <input type="submit" value="submit">  <br><br>
+      <div style="margin-left: 50px;">
+        <fieldset style="width:200px;height: 150px; background-color: aqua; color:blue;">  
+            <legend>User Information:</legend>  
+      <label for="name">Enter name</label><br>  
+      <input type="text" id="name" name="name"><br>  
+      <label for="pass">Enter Password</label><br>  
+      <input type="Password" id="pass" name="pass"><br>  
+      <input type="submit" value="submit">  
+      </fieldset>  
+      </div>
+      <div style="margin-left: 200px;">
+        <fieldset style="width:300px; background-color: gray; color:black;padding:20px 30px; line-height:25px;">  
+            <legend style="color:white;font-size: larger;">User personal information</legend>  
+            <label>Enter your full name</label><br>  
+            <input type="text" name="name"><br>  
+             <label>Enter your email</label><br>  
+             <input type="email" name="email" required multiple><br>  
+             <label>Enter your password</label><br>  
+             <input type="password" name="pass"><br>  
+             <label>confirm your password</label><br>  
+             <input type="password" name="pass"><br>  
+             <br><label>Enter your gender</label><br>  
+             <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+             <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+             <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+           Language Known:<br>  
+              <input type="checkbox" id="eng" name="English" value="English"/>  
+                 <label for="English">English</label> <br>  
+              <input type="checkbox" id="tamil" name="Tamil" value="Tamil"/>  
+                 <label for="Tamil">Tamil</label> <br>  
+              <input type="checkbox" id="french" name="French" value="French"/>  
+                 <label for="French">French</label>  
+              <br>Enter your Address:<br>  
+             <textarea cols="20" rows="5">Address:</textarea><br>  
+             <input type="submit" value="Proceed">  
+             <input type="reset" value="Clear">
+         </fieldset>
+      </div>
+    </form>  
+</body>
+</html>
